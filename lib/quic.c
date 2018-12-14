@@ -977,7 +977,7 @@ CURLcode Curl_quic_connect(struct connectdata *conn,
  */
 int Curl_quic_ver(char *p, size_t len)
 {
-  return msnprintf(p, len, " ngtc2/blabla");
+  return msnprintf(p, len, " ngtcp2/blabla");
 }
 
 #endif
